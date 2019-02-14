@@ -4,9 +4,22 @@
     <meta charset="utf-8" />
     <title>Exaamples</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function addNumbers(j){
+            var sum = 0;
+            i = 0;
+            while(i<j) {
+                sum += i++;
+            }
+            return sum;
+        }
+    </script>
 </head>
 <body>
-    <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+    <script  type="text/javascript">
+        var inputnumber = prompt("State starting number");
+        document.write(addNumbers(inputnumber));
+    </script>
+ 
 </body>
 </html>
